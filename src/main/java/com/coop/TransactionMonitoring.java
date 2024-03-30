@@ -39,7 +39,7 @@ public class TransactionMonitoring extends AbstractVerticle {
 
                 vertx.deployVerticle(FraudDetectionVerticle.class.getName(),deploymentOptions);
                 vertx.deployVerticle(FlagTransactionVerticle.class.getName(),deploymentOptions);
-               vertx.deployVerticle(ReportVerticle.class.getName(),deploymentOptions);
+                vertx.deployVerticle(ReportVerticle.class.getName(),deploymentOptions);
 
             }
         });
